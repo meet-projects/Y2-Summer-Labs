@@ -35,10 +35,6 @@
         
     <img src="https://codeyourfuture.github.io/syllabus-scotland/html-css/assets/form-twitter-post.png" width="500">  
     
-    - If certain attributes and information were not touched/changed, they must stay the same.  
-    - Lastly, you should add a `<button>` for each user block in `home.html`, that will take us to edit the information of each specific user! It should look something like this:  
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UsersListWithEdit-Forms.png" width="500">  
-    
 
 ##### Great job!
 ##### Call an Instructor/TA to check your completed tasks
