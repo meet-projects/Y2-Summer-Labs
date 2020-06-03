@@ -71,7 +71,9 @@ If not, make sure your code is saved in **Repl.it**!
 2. Add a like button, and link it to the function in `database.py`.
     - It should add 1 like to a specific `tweet`, everytime a like button has been clicked.
     
-3. If you have extra time, complete yesterday's lab(s) if you haven't yet!
+3. Add a **Retweet** feature!    
+    
+4. If you have extra time, complete yesterday's lab(s) if you haven't yet!
 
 ##### Great job on completing the bonus problems section!  
 ###### Make sure your code is saved in Repl.it
