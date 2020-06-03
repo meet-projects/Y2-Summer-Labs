@@ -7,7 +7,7 @@ In this lab, you will learn about taking and saving information, given by a user
 
 
 
-<img src="https://africatechreport.com/wp-content/uploads/2018/10/Tweet-UI-Update-Static02-Android.jpg.img_.fullhd.medium.jpg" width="450">
+<img src="https://www.powrcdn.com/images/landing_pages/html/feedback-form-display.webp" width="450">
 
 
 
@@ -56,7 +56,7 @@ If you have extra time, continue to the **Bonus Problems** *below*.
 If not, make sure your code is saved in **Repl.it**!
 
 
-<img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/888/cached.offlinehbpl.hbpl.co.uk/news/ORP/wendysMAIN-20200206101134487.png" width="400">
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--O0ZYhf0U--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://raw.githubusercontent.com/AlbertoMontalesi/InspiredWebDev-Tutorials/master/screenshots/1_HTML_form.png" width="400">
 
 
 
