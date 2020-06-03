@@ -1,8 +1,7 @@
 # APIs 101
 
 ## Objective: 
-In this lab, you will learn about taking already written code from other sources and use it in our apps!  
-APIs!!!
+In this lab, you will learn about taking already written code from many different other sources and open data... and use it in our apps!  Let's go APIs!
 
 
 
