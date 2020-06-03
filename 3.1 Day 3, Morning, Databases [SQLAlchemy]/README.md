@@ -9,7 +9,7 @@ As well as structure the database table columns.
 
 
 
-<img src="https://africatechreport.com/wp-content/uploads/2018/10/Tweet-UI-Update-Static02-Android.jpg.img_.fullhd.medium.jpg" width="700">
+<img src="https://africatechreport.com/wp-content/uploads/2018/10/Tweet-UI-Update-Static02-Android.jpg.img_.fullhd.medium.jpg" width="450">
 
 
 
@@ -18,7 +18,7 @@ As well as structure the database table columns.
 > In **"Day 2"**, create a new python file and call it **"DatatypesLab"**
 
 
-## Instructions:
+## Twitter Lab:
 
 1. Define a new table in `model.py`, call it `User`
     - It should have 5 columns:
@@ -58,7 +58,7 @@ If you have extra time, continue to the **Bonus Problems** *below*.
 If not, make sure your code is saved in **Repl.it**!
 
 
-<img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/888/cached.offlinehbpl.hbpl.co.uk/news/ORP/wendysMAIN-20200206101134487.png" width="700">
+<img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/888/cached.offlinehbpl.hbpl.co.uk/news/ORP/wendysMAIN-20200206101134487.png" width="400">
 
 
 
