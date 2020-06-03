@@ -14,8 +14,7 @@ As well as structure the database table columns.
 
 
 
-> Before we start, make sure to create a new folder in **Repl.it** and call it **"Day 2"**!  
-> In **"Day 2"**, create a new python file and call it **"DatatypesLab"**
+> Before we start, make sure to go to [This Repl.it](https://repl.it/@Loai17/Y2-Databases-Lab), fork it/copy the code to your machine in order to set up our environment for this lab.
 
 
 ## Twitter Lab:
