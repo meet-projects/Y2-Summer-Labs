@@ -1,13 +1,15 @@
 # Databases with SQLAlchemy
 
 ## Objective: 
-In this lab, you will learn about database  
+In this lab, you will learn about reading, adding, editing and deleting info from a SQLAlchemy database!
+As well as structure the database table columns.
 
 
 
 
 
-[![](https://miro.medium.com/max/1000/1*aNMBIivJppLy2fMRVUSgHA.gif)]()
+
+<img src="https://africatechreport.com/wp-content/uploads/2018/10/Tweet-UI-Update-Static02-Android.jpg.img_.fullhd.medium.jpg" width="700">
 
 
 
@@ -18,29 +20,33 @@ In this lab, you will learn about database
 
 ## Instructions:
 
-1. Pair up with a partner, and take a look at this table:
-    - First row is done as an example!  
+1. Define a new table in `model.py`, call it `User`
+    - It should have 5 columns:
+        1. `id` - *Primary key*
+        2. `full_name`
+        3. `username`
+        4. `email`
+        5. `bio` - It should take a maximum of 280 letters.
+         
+
+2. Define a new table in `model.py`, call it `Tweet`
+    - It should have 5 columns:
+        1. `id` - *Primary key*
+        2. `text` - It should take a maximum of 280 letters.
+        3. `image_link` - This should be optional (We'll set this feature up later) 
+        4. `username` - The username of the tweet owner.
+        5. `likes` - An integer that should start equal to 0.
+        
+3. Now, after you're done with setting up `model.py`, let's move to `database.py`.
+    - In `database.py`, we will write all of our database related functions!
     
-    **Expression** | **Your Guess** | **Output**
-    --- | --- | ---
-    `type(259+33)` | Integer | `int`
-    `type(259-33.0)` |  | 
-    `type(4)` |  | 
-    `type('4')` |  | 
-    `type('four')` |  | 
-    `type(5/2.0)` |  |
-    `type(12 > 2*5)` |  | 
-    `type(color + 3)` |  |
-    `type('color'*4)` |  | 
 
-1. Go over each line with your partner, and try to guess what each line returns as an **output**... discuss what your guesses are!
-    - If you don't think **Python** can do something, write `Error`.  
-
-1. Now, after you're done guessing and discussing, let's put your theories to the test!
-    - Try each line in **Repl.it** and understand why it is what it is.
-    - If you don't understand something specific, try and ask your partner first :)
-
-
+4. In `database.py`, 
+     1. Write a function that creates a new unique user!
+     2. Write a function that creates a new tweet!
+     3. Write a function that searches for a user by `username`.
+     4. Write a function that adds a like to a tweet by `tweet id`.
+     5. Write a function that prints ALL information about a `user`, with all the tweets related to this `user`, and number of likes for each `tweet`.
 
 
 
@@ -52,19 +58,20 @@ If you have extra time, continue to the **Bonus Problems** *below*.
 If not, make sure your code is saved in **Repl.it**!
 
 
-[![](https://programmer.group/images/article/1a680890c223e534389f27858b5bf33a.jpg)]()
-
+<img src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/888/cached.offlinehbpl.hbpl.co.uk/news/ORP/wendysMAIN-20200206101134487.png" width="700">
 
 
 
 
 ## Bonus Problems: 
-1. Think about why you got the errors with some lines. How can you change the line to get no error? Discuss with you teammate next to you.  Test your guess in the **Repl.it** file! 
+1. Create an HTML page that displays all tweets.
+    - Using `Flask Routing`, Show this HTML page.
+    - Each tweet should display the owner's `username`.
 
-2. Now type all of the lines again without the word `type` at the beginning. What do you get?
-
-3. If you have extra time, complete yesterday's lab(s) if you haven't OR create your *own design* using **turtle**!
-
+2. Add a like button, and link it to the function in `database.py`.
+    - It should add 1 like to a specific `tweet`, everytime a like button has been clicked.
+    
+3. If you have extra time, complete yesterday's lab(s) if you haven't yet!
 
 ##### Great job on completing the bonus problems section!  
 ###### Make sure your code is saved in Repl.it
