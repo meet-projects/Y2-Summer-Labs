@@ -22,7 +22,7 @@ In this lab, we will be using one of many COVID19 APIs, it allows us to get rele
     - In the route, the function should return the `confirmed` and `recovered` cases numbers of this specific country on that specific date.
     - You should pass that information to `home.html`, and display it there!
     
-<img src="https://lh3.googleusercontent.com/proxy/A8udpCzZMiJlnPAdVeEKIjTKi3oxbQT03F-pdjExETb9H8eDOM118IjKefzyoPfVqoUIMb891fCqnaY4v6mKwLXk52KshtWAA7JLGXwd1X3qIG9P50-N" width="500">  
+<img src="https://lh3.googleusercontent.com/proxy/A8udpCzZMiJlnPAdVeEKIjTKi3oxbQT03F-pdjExETb9H8eDOM118IjKefzyoPfVqoUIMb891fCqnaY4v6mKwLXk52KshtWAA7JLGXwd1X3qIG9P50-N" width="300">  
     
 
 ##### Great job!
