@@ -1,4 +1,4 @@
-# COVID 19 Statistics 
+# COVID 19 Statistics  
 
 <img src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/33/HEALTH-ALERT-COVID19-750x450-1.png" width="450">
 
