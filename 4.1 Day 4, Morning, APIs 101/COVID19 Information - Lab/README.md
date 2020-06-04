@@ -1,68 +1,31 @@
 # COVID 19 Statistics 
 
-<img src="https://images.yourstory.com/cs/wordpress/2018/02/API.gif" width="450">
+<img src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/33/HEALTH-ALERT-COVID19-750x450-1.png" width="450">
 
 
-
+> Before you start working on your lab, we have prepared an environment for you already!   
+> Go to this [Repl.it](https://repl.it/@Loai17/API-Labs-Setup), clone it to your account/copy it to your local machine, and feel free to start working!  
+  
+  
+#### Resources:  
+- [COVID19 API (RapiAPI)](https://rapidapi.com/Gramzivi/api/covid-19-data?endpoint=apiendpoint_80bfb292-72a4-485b-8e76-2900bd8246bd) - Go to RapidAPI website, find the documentation you need about this specific API and obtain the information needed to complete the lab.
+  
 ## Instructions:
 
-As you can see, in the [Repl.it](https://repl.it/@Loai17/Y2-Forms-Lab) we provided above, you have a ready `main.py` (Flask app), `model.py` and `database.py` files. Explore the project files to have a better understanding of what's going on, even try to **run** the app!  
-It should look something like this:  
-<img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UsersList-Forms.png" width="500">  
+In this lab, we will be using one of many COVID19 APIs, it allows us to get relevant information about the COVID19 statistics on specific dates, in specific countries!  
 
-1. Add a new *route* in `main.py`, call it `signup`.. it should render an HTML page, called `signup.html`.
-    - In `signup.html`, create a form that takes:
-        1. `Full Name`
-        2. `Username`
-        3. `Password`
-        4. `Bio`
-    - The route should create a new user with the provided information, when submitting the form!
-    - Can we create 2 users with the same username? Handle these errors in advance to prevent them later.
+1. Add a form to your `home.html`, it should have 2 types of inputs:
+    1. A dropdown list of country names - Here's a [resource](https://gist.github.com/danrovito/977bcb97c9c2dfd3398a#file-countrydropdown-html) to help you out get this set up.
+    2. A date format input. (Should take Day, Month, and Year)
 
-2. Add another *route* in `main.py`, call it `login`.. it should render an HTML page, called `login.html`.
-    - In `login.html`, create a form that takes:
-        1. `Username`
-        2. `Password`
-    - The route should **check** if an account with the username `Username` exists, if so, does the password match?
-    - **If** the account credentials for login are correct, the page should go to **home** to display all users information.
-    - **If not**, you should keep the user on `login` page. 
-        
-3. Now, after you're done with setting up the `login` and `signup` features, let's add an `edit_account` route!
-    - You should create a new route, that looks something like this: `/edit/{{user_id}}`, for example - `/edit/3` would allow us to edit the account information that belongs to user with the id -> 3.
-    - The `edit_account` HTML page should have a form just like `signup.html`, so our users can have the possibility of changing/editing any piece of information they'd like! IT should look something like this:
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UserEdit-Forms.png" width="500">  
+2. Create a new route and link the button to it, OR, use an already existent one and link it also.
+    - In the route, the function should return the `confirmed` and `recovered` cases numbers of this specific country on that specific date.
+    - You should pass that information to `home.html`, and display it there!
     
-    - If certain attributes and information were not touched/changed, they must stay the same.  
-    - Lastly, you should add a `<button>` for each user block in `home.html`, that will take us to edit the information of each specific user! It should look something like this:  
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UsersListWithEdit-Forms.png" width="500">  
+<img src="https://lh3.googleusercontent.com/proxy/A8udpCzZMiJlnPAdVeEKIjTKi3oxbQT03F-pdjExETb9H8eDOM118IjKefzyoPfVqoUIMb891fCqnaY4v6mKwLXk52KshtWAA7JLGXwd1X3qIG9P50-N" width="500">  
     
 
 ##### Great job!
 ##### Call an Instructor/TA to check your completed tasks
  
-
-If you have extra time, continue to the **Bonus Problems** *below*.  
-If not, make sure your code is saved in **Repl.it**!
-
-
-<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--O0ZYhf0U--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://raw.githubusercontent.com/AlbertoMontalesi/InspiredWebDev-Tutorials/master/screenshots/1_HTML_form.png" width="400">
-
-
-
-
-## Bonus Problems: 
-1. When you **signup/login**, is it case sensitive? If not, fix these issues so your app could work properly.
-
-2. If a specific user is logged in, he/she should be able to only edit **his/her** information, not everyone else's! Solve this issue.
-    
-3. Come up with a **Search** *functionality*, it should be a search bar (form), that searches if specific users exist! This function should be able to search users by their:
-    - Username
-    - Full name
-    - **Extra challenge**: If specific words happen to exist in their bio!
-    
-4. If you have extra time, complete yesterday's lab(s) if you haven't yet!
-
-##### Great job on completing the bonus problems section!  
-###### Make sure your code is saved in Repl.it
-
 
