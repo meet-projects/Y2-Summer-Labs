@@ -46,6 +46,8 @@ As well as structure the database table columns.
      3. Write a function that searches for a user by `username`.
      4. Write a function that adds a like to a tweet by `tweet id`.
      5. Write a function that prints ALL information about a `user`, with all the tweets related to this `user`, and number of likes for each `tweet`.
+     6. Write a function that deletes a user by `username`.
+     7. Write a function that edits a user account information.
 
 
 
@@ -70,7 +72,7 @@ If not, make sure your code is saved in **Repl.it**!
 2. Add a like button, and link it to the function in `database.py`.
     - It should add 1 like to a specific `tweet`, everytime a like button has been clicked.
     
-3. Add a **Retweet** feature!    
+3. Add a Tweet **Timestamp** attribute! It should take the real time and date and save it in Tweet.    
     
 4. If you have extra time, complete yesterday's lab(s) if you haven't yet!
 
