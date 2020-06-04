@@ -1,6 +1,6 @@
 # EONET By Nasa
 
-<img src="https://images.yourstory.com/cs/wordpress/2018/02/API.gif" width="450">
+<img src="https://api.nasa.gov/EPIC/archive/natural/2019/05/30/png/epic_1b_20190530011359.png?api_key=DEMO_KEY" width="450">
 
 
 
