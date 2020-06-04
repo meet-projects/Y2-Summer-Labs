@@ -6,7 +6,11 @@
 
 > Before you start working on your lab, we have prepared an environment for you already!   
 > Go to this [Repl.it](https://repl.it/@Loai17/API-Labs-Setup), clone it to your account/copy it to your local machine, and feel free to start working!  
-
+  
+  
+#### Resources:  
+- [https://api.nasa.gov/](https://api.nasa.gov/) - Go to Nasa's open data API portal, find the documentation you need (*"Mars Rover Photos"*), and obtain the information needed.  
+  
 ## Instructions:
 
 In this lab, we will be using the Mars Rover API by NASA, it allows us to get real picture taken by the Mars Rover!  
