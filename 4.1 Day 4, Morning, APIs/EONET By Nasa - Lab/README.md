@@ -9,11 +9,20 @@
   
 #### Resources:  
 - [https://api.nasa.gov/](https://api.nasa.gov/) - Go to Nasa's open data API portal, find the documentation you need (*"EONET"*), and obtain the information needed.  
+</br>
+
+
+## What is EONET?
+> The Earth Observatory Natural Event Tracker (EONET) is a prototype web service with the goal of:  
+  
+> 1. Providing a curated source of continuously updated natural event data.  
+> 2. Providing a service that links those natural events to thematically-related web service-enabled image sources.
+
+</br>  
   
 ## Instructions:
-
 In this lab, we will be using the EONET API by NASA, it allows us to get relevant information about the **"Earth Observatory Natural Event Tracker"**.  
-
+</br>
 1. Add a button to your `home.html`, the button should say "Get Event!".
     - We're going to use this button to update our HTML page with an event information accessible by the EONET API!
 
