@@ -7,8 +7,7 @@ In this lab, you will implement the MVC map, trying to *grasp* the **concept of 
 
 
 
-[![](https://i.ytimg.com/vi/1IsL6g2ixak/maxresdefault.jpg)]()
-
+<img src="https://i.ytimg.com/vi/1IsL6g2ixak/maxresdefault.jpg" width="400">
 
 
 
@@ -16,13 +15,16 @@ In this lab, you will implement the MVC map, trying to *grasp* the **concept of 
 
 ## Instructions:
 
-1. Pair up with a partner, and layout the drawing of an **MVC Map**!
-    - It can be done using a paper and pen.
-    
-2. After drawing the **MVC Map**, add description of each box/station/map point.
-    - For example: Controller -> Controls the application, updates views...etc.
+1. Pair up with a partner, and draw the layout of an **MVC Map**!
+    - It can be done using a paper and pen.  
 
-3. Draw the restaurant example experience using an MVC map!
+</br>  
+
+2. After drawing the **MVC Map**, add description of each box/station/map point.
+    - For example: Controller -> Controls the application, updates views...etc.  
+</br>  
+
+3. Draw the restaurant example experience using an MVC map!  
 
 ##### Great job!
 ##### Call an Instructor/TA to check your completed tasks
