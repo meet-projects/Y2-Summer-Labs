@@ -50,6 +50,7 @@ This is your chance to show us what you’re passionate about using CS only, you
 - For getting a color scheme, here's a [useful website](https://coolors.co/)  
 - Wireframe example:
 <img src="https://lh3.googleusercontent.com/7lqo2S5GBmY2UITQFdUeSVWR0XAche0gWqcqvkxJhdHAUCnHHDt4WfpHnhmYOqxQBsOCiFp88EMtnaNJ6uQ6TYEvvuEP2UKakQPjoQlH2ZTDeyzHfdwI1pXNQ2-xVGjlC2KAs4Z8mg" width="350">  
+
 - Storyboard example:  
 <img src="https://lh6.googleusercontent.com/X2_I2HKKsJGVF3D8_qUrttJBch6gjAG2LRDbC1FL7Xfe23ST_uA-vwDiQtU6HjCdAbRmbJKz6moD_lh1VLFTBaez_bB5SJgyfVX8Qf8" width="350">
 
