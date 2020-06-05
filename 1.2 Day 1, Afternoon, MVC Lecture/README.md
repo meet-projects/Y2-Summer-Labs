@@ -30,5 +30,5 @@ In this lab, you will implement the MVC map, trying to *grasp* the **concept of 
 ##### Call an Instructor/TA to check your completed tasks
  
 
-[![](https://www.c-sharpcorner.com/UploadFile/201fc1/programming-in-java-using-the-mvc-architecture/Images/mvc%20framework.jpg)]()
+<img src="https://www.c-sharpcorner.com/UploadFile/201fc1/programming-in-java-using-the-mvc-architecture/Images/mvc%20framework.jpg" width="350">
 
