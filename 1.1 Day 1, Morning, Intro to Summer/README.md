@@ -101,6 +101,7 @@ If you have finished and still have time, first of all **GOOD JOB!**
     - The function should check all comments for a **list** of bad words, and if any of the bad words are there, the function should delete the comment!
     - Example: bad_words_list = ["****","Shoot","Hate","Prick","noob"] 
     - If any of the words in the above list happen to be in any comment, the comment itself should be taken off and deleted for being offensive.
+    - *Hint*: Maybe we can run the function everytime a new comment is added?     
 
 
 
