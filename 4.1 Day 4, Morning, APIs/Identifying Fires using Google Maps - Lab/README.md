@@ -17,7 +17,7 @@
 In this lab, we will be using 2 main APIs, **Google Maps API** and **BreezoMeter API**!
 We'll be creating an application that has a map, when you click on a location - it should tell you if there are current fires in that place! 
 
-1. Go to [BreezoMeter)[https://docs.breezometer.com/api-documentation/fires-api/v1/#examples], explore the API and its documentation, have an idea of what could be done with **BreezoMeter**!
+1. Go to [BreezoMeter](https://docs.breezometer.com/api-documentation/fires-api/v1/#examples), explore the API and its documentation, have an idea of what could be done with **BreezoMeter**!
 
 2. In `home.html`, Add a **form** that takes 2 inputs, a `Latitude`, and a `Longitutde` coordinates.
     - *They should be a **float**.*
