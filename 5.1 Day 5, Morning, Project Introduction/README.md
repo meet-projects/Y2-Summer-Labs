@@ -2,11 +2,12 @@
 
 
 
-## SWBAT:
-Build a full multi-page website using and combining the CS tools they’ve learned.
+## Your final outcome:
+- You will build your first *dynamic* **web application** combining the all of the CS tools you learned so far!
+
 
 ## Project Plan:
-In this challenge, each student must design and build their own website. It can be about:
+In this challenge, every pair team (2 students) must design and build their own website. It can be about:
 - A Status Quo
 - Something they’re passionate about.
 - A game they’ve been wanting to create.
