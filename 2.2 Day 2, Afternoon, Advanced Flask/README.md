@@ -22,7 +22,7 @@ We have provided your Repl.it with some HTML, CSS, and JS already, so not to wor
 
 1. Run `main.py`; Did everything load up correctly?
     - Fix the incorrectly loaded content
-    - *Hint: Take a look at index.html, are all pictures visible? Are all scripts linked correctly?*
+    - *Hint: Take a look at `index.html`, are all pictures visible? Are all scripts linked correctly?*
 
 2. In `main.py`, you have a variable called `image_link`, and another variable called `user_bio`:
     - **Pass** these *two variables* to `index.html`
