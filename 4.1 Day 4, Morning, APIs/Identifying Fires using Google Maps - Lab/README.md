@@ -15,9 +15,10 @@
 ## Instructions:
 
 In this lab, we will be using 2 main APIs, **Google Maps API** and **BreezoMeter API**!
-We'll be creating an application that has a map, when you click on a location - it should tell you if there are current fires in that place! 
+We'll be creating an application that has a map, when you click on a location/enter coordinates (Latitude and Longitude) - it should tell you mainly if there are current fires in that place! And if we have more time we'll use other APIs from BreezoMeter! 
 
 1. Go to [BreezoMeter](https://docs.breezometer.com/api-documentation/fires-api/v1/#examples), explore the API and its documentation, have an idea of what could be done with **BreezoMeter**!
+    - Test out some of their examples!  
 
 2. In `home.html`, Add a **form** that takes 2 inputs, a `Latitude`, and a `Longitutde` coordinates.
     - *They should be a **float**.*
@@ -35,9 +36,14 @@ We'll be creating an application that has a map, when you click on a location - 
  
 
 ## Bonus:
-1. Using this [Google Maps API](https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng), display a map in `home.html`, **On click** event, it should pass the coordinates you got to the function and check if there are any current fires!
+1. Make it so your web application also returns these results when entering Lat and Lng coordinates:
+     - Current conditions using [**Air Quality API**](https://docs.breezometer.com/api-documentation/air-quality-api/v2/#current-conditions)
+     - Daily forecast using [**Pollen API**](https://docs.breezometer.com/api-documentation/pollen-api/v2/#daily-forecast)
+     - Current conditions using [**Weather API**](https://docs.breezometer.com/api-documentation/weather-api/v1/)
 
-2. Make a function that checks all of the available coordinates in the map, the function should let you know where do fires exist *(if any)*.
+2. Using this [Google Maps API](https://developers.google.com/maps/documentation/javascript/examples/event-click-latlng), display a map in `home.html`, **On click** event, it should pass the coordinates you got to the function and check if there are any current fires!
+
+3. Make a function that checks all of the available coordinates in the map, the function should let you know where do fires exist *(if any)*.
 
 
 ##### Great job on completing the bonus section!
