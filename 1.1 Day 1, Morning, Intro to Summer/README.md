@@ -70,10 +70,10 @@ You have an idea! Why not use OOP? it's going to be super easy to do all of the 
     <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/1.1%20Day%201%2C%20Morning%2C%20Intro%20to%20Summer/YoutubeVideoExample-OOP.png">
 
 
-7. Create a new youtube video **object**, and fill in the attributes, try to make it a funny video!
+7. Create a new youtube video **object**, and fill in the attributes!
     - Test out all of the object's functions.
     - How would you add 495 likes?
-    - Show your neighbor! Have a laugh :)
+    - Show your neighbor!
 
 
 ##### Great job on completing your first Lab!
@@ -99,12 +99,14 @@ If you have finished and still have time, first of all **GOOD JOB!**
 
 2. Costumize the **"YoutubeVideo"** class in **"oopReview.py"**, define a new function called "delete_bad_comments".
     - The function should check all comments for a **list** of bad words, and if any of the bad words are there, the function should delete the comment!
-    - Example: bad_words_list = ["****","Shoot","Hate","Prick","noob"] 
+    - Example: bad_words_list = ["****","Shoot","Hate","ugly","noob"] 
     - If any of the words in the above list happen to be in any comment, the comment itself should be taken off and deleted for being offensive.
     - *Hint*: Maybe we can run the function everytime a new comment is added?     
 
 
-
+3. Let's make a recommended videos algorithm!!
+    - Firstly, add an attribute to **"YoutubeVideo"** class, call it 'hashtag'. It should be a list up to 5 words that describe the video.
+    - Come up with a function called 'recommended_videos', the function should return the videos with similar hashtags!
 
 
 
