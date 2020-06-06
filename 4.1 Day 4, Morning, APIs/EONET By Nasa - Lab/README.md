@@ -18,6 +18,11 @@
 > 1. Providing a curated source of continuously updated natural event data.  
 > 2. Providing a service that links those natural events to thematically-related web service-enabled image sources.
 
+### What are natural events according to NASA?
+> Natural events are events that happen naturally (duh), such as:
+
+> Earthquakes, Volcanoes, Floods, Fires, Severe Storms, Temparature extremes, and many more... 
+
   
 ## Instructions:
 In this lab, we will be using the EONET API by NASA, it allows us to get relevant information about the **"Earth Observatory Natural Event Tracker"**.  
