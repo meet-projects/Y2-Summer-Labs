@@ -35,11 +35,50 @@ The best way to practice and solidify all of these new concept in programming is
 This is your chance to show us what you’re passionate about using CS only, you can show off your skills and still focus on your website’s topic using your creativity!  
 
 
+## Collaboration:  
+  
+***Pair* Programming** is a really important skill.  
+I know sometimes it’s uncomfortable to work in groups, but as a developer, you work together all the time.  
+When you build an app, you will never be building and creating by yourself. You might be using a blog post, or a stack overflow question, or asking a friend and in some capacity you will be working with other people.  
+There is a concept called **pair programming** that’s used in industry, where *two developers* work together on <u>one computer</u>.  
+One is **the driver**, who types, and the other is **the navigator** who tells the driver what to type.  
+It should be a conversation, we should hear talking in the room when you work together, it should be **collaborative**.  
+A lot of tech companies use **pair programming** during the interview process to see if you can get along with their developers. It’s a really important skill to be able to *work together*.  
+
+
+### 1 + 1 = 3
+> When does this happen?  
+</br>  
+
+This happens as a result to **Effective Collaboration!**  
+
+> The **whole** is *greater* than the **sum** of its parts.  
+  
+- Turn to your partner, "what does it mean to be an effective collaborator?"  
+</br>  
+
+Some effective collaboration ***characteristics***:
+- listening
+- humility
+- patience
+- compassion
+- generosity
+- empathy
+- clarity and thoughtful communication
+- joy  
+</br>  
+
+
 ## Brainstorming:  
 1. Brainstorm a topic the website revolves around and a name for the website.
 - Can be on paper & pen or a tool of your choice. *Make sure to save your documentation somewhere safe as you'll have to submit it!*
 
-### Project Samples: (To get your brain running)
+### Hypothetical Projects You could do! (To get your brain running)
+- 
+- 
+
+
+### Project Samples: (Also to get your brain running)
 - [TBD]()
 - [TBD]()  
 
