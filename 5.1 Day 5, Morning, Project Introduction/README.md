@@ -46,7 +46,7 @@ It should be a conversation, we should hear talking in the room when you work to
 A lot of tech companies use **pair programming** during the interview process to see if you can get along with their developers. It’s a really important skill to be able to *work together*.  
 
 
-### 1 + 1 = 3
+### >>> 1 + 1 = 3
 > When does this happen?  
 </br>  
 
