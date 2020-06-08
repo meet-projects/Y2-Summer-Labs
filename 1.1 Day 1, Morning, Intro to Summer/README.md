@@ -100,15 +100,7 @@ If you have finished and still have time, first of all **GOOD JOB!**
         3. On 2nd button click, the background will change to Blue.
         4. And so on... (Keeps switching between Yellow and Blue on every new click!)
 
-
-2. Costumize the **`YoutubeVideo`** class in **`oopReview.py`**, define a new function called `delete_bad_comments`.
-    - The function should check all comments for a **list** of bad words, and if any of the bad words are there, the function should delete the comment!
-    - Example: `bad_words_list = ["****","Shoot","Hate","ugly","noob"]` 
-    - If any of the words in the above list happen to be in any comment, the comment itself should be taken off and deleted for being offensive.
-    - *Hint*: Maybe we can run the function everytime a new comment is added?     
-
-
-3. Let's make a recommended videos algorithm!!
+2. Let's make a recommended videos algorithm!!
     - Firstly, add an attribute to **`YoutubeVideo`** class, call it `hashtag`. It should be a **list up to 5 words** that describe the video.
     - Come up with a function called `recommended_videos`, the function should return the videos with similar hashtags!
 
