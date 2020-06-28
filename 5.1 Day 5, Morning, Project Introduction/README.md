@@ -7,11 +7,15 @@
 
 
 ## Project Plan:
-In this challenge, you will design and build a **full scale web application!** It can be about:  
-- A Status Quo
-- Something you're passionate about.
-- A game you’ve been wanting to create.
-- Favorite product, brand, person...etc.
+In this challenge, you will design and build a **full scale web application!** that uses one of these **APIs**:  
+- BreezoMeter
+- Twilio
+- NASA API
+- Waze
+- Clarifai
+- Israeli Open Data
+- Palestinian Open Data
+
 
 
 ## Requirements:
@@ -19,9 +23,10 @@ Final Outcome:
 - User Interactivity
 - Uses Flask
 - Databases implemented. (Try to use CRUD)
+- Use an API (Choose one from the provided list)
 
 ### Bonus:
-- Use an API
+- Uses Bootstrap
 - Deployed on Heroku * *(We will help you deploy it!)*  
 
 ### Should be submitted with: 
