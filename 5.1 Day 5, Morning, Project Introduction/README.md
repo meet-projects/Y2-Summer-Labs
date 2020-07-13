@@ -3,7 +3,7 @@
 
 
 ## Your final outcome:
-- You will build your first *dynamic* **web application** combining the all of the CS tools you learned so far!
+- You will build your first *dynamic* **web application** combining all of the CS tools you learned so far!
 
 
 ## Project Plan:
