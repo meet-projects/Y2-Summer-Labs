@@ -21,7 +21,7 @@ In this lab, we will be using the Country Population API to be able to show each
 2. Create a new route and link the button to it, OR, use an already existent one and link it also.
     - In the route, the function should return the **chosen country's** population number.
     - You should pass that information to `home.html`, and display it there!
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/tree/master/4.1%20Day%204%2C%20Morning%2C%20APIs/Population%20by%20Country%20-%20Lab" width="500">  
+    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/4.1%20Day%204%2C%20Morning%2C%20APIs/Population%20by%20Country%20-%20Lab/API-cPopulation.png" width="500">  
     
 
 3. Add another route and HTML page, call it `all_country_populations`. When visiting this route, it should display a list of all countries and population numbers!
