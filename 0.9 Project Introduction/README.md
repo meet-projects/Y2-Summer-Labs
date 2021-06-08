@@ -19,7 +19,7 @@ The company asks for:
 
 ## Official Requirements:
 Final Outcome:
-- User Interactivity
+- At least 3 HTML pages - Focus on User Interactivity/Friendliness 
 - Uses Flask (Routing & Forms)
 - Databases implemented. (Try to use CRUD)
 
