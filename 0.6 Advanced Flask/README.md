@@ -7,7 +7,7 @@ By the end of this lab, you will have your Instagram profile page look something
 
 
 
-<img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/2.2%20Day%202%2C%20Afternoon%2C%20Advanced%20Flask/AdvancedFlask-Instagram.png" width="450">
+<img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/0.6%20Advanced%20Flask/AdvancedFlask-Instagram.png" width="450">
 
 
 
