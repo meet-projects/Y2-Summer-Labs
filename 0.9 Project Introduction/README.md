@@ -97,7 +97,7 @@ Some effective collaboration ***characteristics***:
 <img src="https://lh3.googleusercontent.com/7lqo2S5GBmY2UITQFdUeSVWR0XAche0gWqcqvkxJhdHAUCnHHDt4WfpHnhmYOqxQBsOCiFp88EMtnaNJ6uQ6TYEvvuEP2UKakQPjoQlH2ZTDeyzHfdwI1pXNQ2-xVGjlC2KAs4Z8mg" width="350">  
 
 - Storyboard example:  
-<img src="https://lh6.googleusercontent.com/X2_I2HKKsJGVF3D8_qUrttJBch6gjAG2LRDbC1FL7Xfe23ST_uA-vwDiQtU6HjCdAbRmbJKz6moD_lh1VLFTBaez_bB5SJgyfVX8Qf8" width="350">
+<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.co.uk%2Fpin%2F854909941734578224%2F&psig=AOvVaw07HdNnZQCw1zcpTODz_sdp&ust=1623261624772000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCp1YvPiPECFQAAAAAdAAAAABAO" width="350">
 
 
 ## Building/Workflow:
