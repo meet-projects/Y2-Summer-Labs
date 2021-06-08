@@ -7,31 +7,31 @@
 
 
 ## Project Plan:
-In this challenge, a [Company] of your choosing has approached you looking for a new web application!  
-The company can be an organization you like, a restaurant you visit frequently, or any other one on your mind.  
+In this challenge, you will design and build a **full scale web application!** that uses one of these **APIs**:  
+- BreezoMeter
+- Twilio
+- NASA API
+- Waze
+- Clarifai
+- Israeli Open Data
+- Palestinian Open Data
 
-The company asks for: 
-- 3 main pages: Landing page, an about us page, and a page containing a form (can be login/logout, reviews section, contact us section, etc.)
-- The form should be linked to a database.
-- The web application should run on Flask.
 
 
-
-## Official Requirements:
+## Requirements:
 Final Outcome:
 - User Interactivity
-- Uses Flask (Routing & Forms)
+- Uses Flask
 - Databases implemented. (Try to use CRUD)
-
+- Use an API (Choose one from the provided list)
 
 ### Bonus:
 - Uses Bootstrap
-- Uses an API
+- Deployed on Heroku * *(We will help you deploy it!)*  
 
 ### Should be submitted with: 
-- Planning Document (Must have)
-- Storyboard & Wireframe *(if any)*
-
+- Storyboard & Wireframe
+- Planning Document *(if any)*  
 
 
 ## Why should you care?
@@ -75,13 +75,16 @@ Some effective collaboration ***characteristics***:
 
 
 ## Brainstorming:  
-1. Brainstorm a topic the website revolves around and decide on the company/service you are building a web application for.
+1. Brainstorm a topic the website revolves around and a name for the website.
 - Can be on paper & pen or a tool of your choice. *Make sure to save your documentation somewhere safe as you'll have to submit it!*
 
 ### Hypothetical Projects You could do! (To get your brain running)
-+ A web application for a restaurant that has a reviews form, where the customers can rate the restaurant after visiting it.
-+ A web application for an organization that has a login/signup page for the organization employees/members.
-+ A web application for a cleaning service that has a contact form so the users can send requests easily to the cleaning crew.
++ A web application that gives you live alerts of current fires in a selected area.
++ A web application that finds you the most suitable available job.
++ A web application that handles face recognition user credentials.
+    - For example: This app provides other apps to be able to log in using face recognition!
++ A barcode scanner application that finds and retrieves info about a product via its barcode.
++ A web application that gives you information about weather and air quality, in a specified location.
 
 
 ### Project Samples: (Also to get your brain running)
@@ -102,10 +105,6 @@ Some effective collaboration ***characteristics***:
 
 ## Building/Workflow:
 1. Brainstorming
-2. Writing down your plan *(must)*, Storyboarding & Wireframing *(optional)* + Choosing a color scheme *(optional)*
+2. Storyboarding & Wireframing *(must)* + Choosing a color scheme *(optional)*
 3. Implementation (Coding + building everything together)
-  
 
-
-
-Don't forget the CS team is always here for you! To help push and support your work and creativity. Don't hesitate to approach anyone on the team for anything on your mind!
