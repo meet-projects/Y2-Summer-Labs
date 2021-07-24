@@ -9,7 +9,7 @@ As well as structure the database table columns.
 
 
 
-<img src="https://africatechreport.com/wp-content/uploads/2018/10/Tweet-UI-Update-Static02-Android.jpg.img_.fullhd.medium.jpg" width="450">
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--AMKbrkDD--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/rlrlpchkz57pxwwxvwid.png" width="450">
 
 
 
@@ -77,6 +77,6 @@ If not, make sure your code is saved in **Repl.it**!
 4. If you have extra time, complete yesterday's lab(s) if you haven't yet!
 
 ##### Great job on completing the bonus problems section!  
-###### Make sure your code is saved in Repl.it
+###### Make sure your code is saved in Repl.it or on your machine!
 
 
