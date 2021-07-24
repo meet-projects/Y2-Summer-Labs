@@ -19,7 +19,7 @@ In this lab, you will learn about taking and saving information, given by a user
 
 As you can see, in the [Repl.it](https://repl.it/@Loai17/Y2-Forms-Lab) we provided above, you have a ready `main.py` (Flask app), `model.py` and `database.py` files. Explore the project files to have a better understanding of what's going on, even try to **run** the app!  
 It should look something like this:  
-<img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UsersList-Forms.png" width="500">  
+<img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/0.8%20Flask%20Forms/UsersList-Forms.png" width="500">  
 
 1. Add a new *route* in `main.py`, call it `signup`.. it should render an HTML page, called `signup.html`.
     - In `signup.html`, create a form that takes:
@@ -41,11 +41,11 @@ It should look something like this:
 3. Now, after you're done with setting up the `login` and `signup` features, let's add an `edit_account` route!
     - You should create a new route, that looks something like this: `/edit/{{user_id}}`, for example - `/edit/3` would allow us to edit the account information that belongs to user with the id -> 3.
     - The `edit_account` HTML page should have a form just like `signup.html`, so our users can have the possibility of changing/editing any piece of information they'd like! IT should look something like this:
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UserEdit-Forms.png" width="500">  
+    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/0.8%20Flask%20Forms/UserEdit-Forms.png" width="500">  
     
     - If certain attributes and information were not touched/changed, they must stay the same.  
     - Lastly, you should add a `<button>` for each user block in `home.html`, that will take us to edit the information of each specific user! It should look something like this:  
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/3.2%20Day%203%2C%20Afternoon%2C%20Flask%20Forms/UsersListWithEdit-Forms.png" width="500">  
+    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/0.8%20Flask%20Forms/UsersListWithEdit-Forms.png" width="500">  
     
 
 ##### Great job!
