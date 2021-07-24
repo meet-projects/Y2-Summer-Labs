@@ -37,7 +37,7 @@ You have an idea! Why not use OOP? it's going to be super easy to do all of the 
 
 6. Define a new function, call it `print_info`.
     - Make it so the function prints all of the video's information, in a similar way to this:
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/1.1%20Day%201%2C%20Morning%2C%20Intro%20to%20Summer/YoutubeVideoExample-OOP.png">
+    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/0.2%20Python%20Review/YoutubeVideoExample-OOP.png?raw=true">
 
 
 7. Create a new youtube video **object**, and fill in the attributes!
