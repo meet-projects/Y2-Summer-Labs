@@ -29,7 +29,10 @@ In this lab, you will implement the MVC map, trying to *grasp* the **concept of 
 ##### Great job!
 ##### Call an Instructor/TA to check your completed tasks
 
-Bonus tasks!
+
+
+
+## Bonus tasks!
 
 4. Discussion question: 
 
