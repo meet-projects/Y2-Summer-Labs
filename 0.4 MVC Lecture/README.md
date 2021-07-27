@@ -28,7 +28,15 @@ In this lab, you will implement the MVC map, trying to *grasp* the **concept of 
 
 ##### Great job!
 ##### Call an Instructor/TA to check your completed tasks
+
+Bonus tasks!
+
+4. Discussion question: 
+
+    (a) What are some advantages of MVC? 
+    
+    (b) What are some disadvantages of MVC? 
+    
+5. Put on your MVC glasses: Can you come up with other MVC examples? Which parts correspond to which letter? (Crazier examples are better; you can analyze pretty much anything with the MVC mindset!!)
+    
  
-
-<img src="https://www.c-sharpcorner.com/UploadFile/201fc1/programming-in-java-using-the-mvc-architecture/Images/mvc%20framework.jpg" width="350">
-
