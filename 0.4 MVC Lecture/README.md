@@ -12,9 +12,6 @@ In this lab, you will implement the MVC map, trying to *grasp* the **concept of 
 
 
 
-
-### Instructions:
-
 ## Review:
 
 0. Pair up with a partner, and draw the layout of an **MVC Map**!
@@ -32,21 +29,20 @@ In this lab, you will implement the MVC map, trying to *grasp* the **concept of 
     
        
 
-##### Great job!
-##### Call an Instructor/TA to check your completed tasks
+##### Great job! Call an Instructor/TA to check your completed tasks!
 
 
 
 
 ## Bonus tasks!
 
-4. Discussion question: 
+2. Discussion question: 
 
     (a) What are some advantages of MVC? 
     
     (b) What are some disadvantages of MVC? 
     
-5. Put on your MVC glasses: Can you come up with other MVC examples? Which parts correspond to which letter? (Crazier examples are better; you can analyze pretty much anything with the MVC mindset!!)
+3. Put on your MVC glasses: Can you come up with other MVC examples? Which parts correspond to which letter? (Crazier examples are better; you can analyze pretty much anything with the MVC mindset!!)
     
  
  <br/> <br/>
