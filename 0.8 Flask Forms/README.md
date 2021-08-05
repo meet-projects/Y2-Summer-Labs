@@ -39,7 +39,7 @@ It should look something like this:
     - **If not**, you should keep the user on `login` page. 
         
 3. Now, after you're done with setting up the `login` and `signup` features, let's add an `edit_account` route!
-    - You should create a new route, that looks something like this: `/edit/{{user_id}}`, for example - `/edit/3` would allow us to edit the account information that belongs to user with the id -> 3.
+    - You should create a new variable route, that looks something like this: `/edit/<some user id goes here>`, for example - `/edit/3` would allow us to edit the account information that belongs to user with the id -> 3.
     - The `edit_account` HTML page should have a form just like `signup.html`, so our users can have the possibility of changing/editing any piece of information they'd like! IT should look something like this:
     <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/0.8%20Flask%20Forms/UserEdit-Forms.png" width="500">  
     
