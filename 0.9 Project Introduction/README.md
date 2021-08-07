@@ -85,8 +85,8 @@ Some effective collaboration ***characteristics***:
 
 
 ### Project Samples: (Also to get your brain running)
-- [TBD]()
-- [TBD]()  
+- [Recipes Website](https://meet-cs-project-2020.herokuapp.com/)
+- [One Direction Fans](https://directioner.herokuapp.com/)  
 
 
 ## Storyboarding & Wireframing:
