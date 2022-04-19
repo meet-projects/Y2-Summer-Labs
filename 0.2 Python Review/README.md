@@ -9,7 +9,6 @@ Refreshing your memories and reviewing specifically: Python and Object Oriented 
 
 
 **First things first, *fork* this repo(sitory) and *clone* it to your desktop!**
-**OR create a new Repl and call it "Python Review S21"**
 
 
 ## OOP Section

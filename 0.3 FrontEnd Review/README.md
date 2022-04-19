@@ -9,7 +9,6 @@ Refreshing your memories and reviewing specifically: HTML, CSS and JS.
 
 
 **First things first, *fork* this repo(sitory) and *clone* it to your desktop!**
-**OR create a new Repl and call it "FrontEnd Review S21"**
 
 ## HTML Section
 1. Create a file `hello.html`.<br/> Open the `hello.html` file using a browser (Like Chrome/Firefox), the page should be empty.<br/><br/> 
