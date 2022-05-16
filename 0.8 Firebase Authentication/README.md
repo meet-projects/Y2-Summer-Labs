@@ -1,7 +1,7 @@
 # Firebase Authentication
 
 ## Objective: 
-In this lab, you will learn about signing up, signing in & signing out users in your Flask up. <br/>
+In this lab, you will learn about signing up, signing in & signing out users in your Flask app. <br/>
 As well as setting up a Firebase project.
 
 
