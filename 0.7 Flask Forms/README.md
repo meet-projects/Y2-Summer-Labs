@@ -55,7 +55,7 @@ facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
 
 
 4. Now, let's add a variable route called `friend_exists` with name as an input:
-    - You should create a new route, called `/friend_exists` that additionally takes a variable route called name, for example - /friends_exists/Fouad.
+    - You should create a new route, called `/friend_exists` that additionally takes a variable in the route called name, for example - /friends_exists/Fouad.
     - The route should render `friend_exists.html`.
     - Make sure that this route accepts `GET` and `POST` as methods.
     - Add a link to each "friend" in `home.html` (`facebook_friends` list).
