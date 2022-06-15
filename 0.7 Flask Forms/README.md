@@ -80,7 +80,7 @@ If not, make sure your code is saved in **Repl.it**!
 
 2. Add a dictionary of usernames and passwords, accounts that are allowed to log in to your Facebook app.
  
-3. Instead of `add_friend/{{name}}, make the link to each "friend" in `home.html` (`facebook_friends` list), that when clicked, it should Google the name. 
+3. Instead of `friend_exists/{{name}}`, make the link to each "friend" in `home.html` (`facebook_friends` list), that when clicked, it should Google the name. 
   - In other words, if you click on `"Loai"`, it should take you to the results google page when searching for "Loai".
  
 4. If you have extra time, complete yesterday's (or any other) lab(s) if you haven't yet!
