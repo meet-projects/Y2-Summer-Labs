@@ -60,7 +60,7 @@ facebook_friends=["Loai","Yonathan","Adan", "George", "Fouad", "Celina"]
     - Make sure that this route accepts `GET` and `POST` as methods.
     - Add a link to each "friend" in `home.html` (`facebook_friends` list).
     - Make the link the route `friend_exists` and the name of the friend.
-    - The function checks if the name is in the `facebook_friends` and displays the result in 'friend_exists.html`.
+    - The function checks if the name is in the `facebook_friends` and displays True or False according to the results in 'friend_exists.html`.
 
 
 ##### Great job!
