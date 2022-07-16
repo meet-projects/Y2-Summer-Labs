@@ -36,11 +36,12 @@ You have an idea! Why not use Dictionaries? it's going to be super easy to do al
 
 4. Define a similar function, call it `dislike`. The function should add 1 dislike to the key `dislikes` if it's in the dictionary.
 
-5. Define a new function, call it `add_comment`. The function should take 2 attributes:
+5. Define a new function, call it `add_comment`. The function should take 3 attributes:
+    1. `youtubevideo` - The dictionary that contains the youtube video info.
     1. `username` - The username of the commenter.
     2. `comment_text` - The actual comment!
     - The function should add "username" as a **key** to "comments" dictionary, and "comment_text" as the **value**.
-    3. The function returns the dictionary.
+    - The function returns the dictionary.
 
 6. Define a new function, call it `print_info`.
     - Make it so the function prints all of the video's information, in a similar way to this:
