@@ -43,12 +43,8 @@ You have an idea! Why not use Dictionaries? it's going to be super easy to do al
     - The function should add "username" as a **key** to "comments" dictionary, and "comment_text" as the **value**.
     - The function returns the dictionary.
 
-6. Define a new function, call it `print_info`.
-    - Make it so the function prints all of the video's information, in a similar way to this:
-    <img src="https://github.com/meet-projects/Y2-Summer-Labs/blob/master/0.2%20Python%20Review/YoutubeVideoExample-OOP.png?raw=true">
 
-
-7. Create a new youtube video **object**, and fill in the attributes!
+6. Create a new youtube video **dictionary**, and fill in the attributes!
     - Test out all of the object's functions.
     - How would you add 495 likes?
     - Show your neighbor!
@@ -68,8 +64,8 @@ If you have extra time, continue to the **Bonus Problems** *below*.
 If you have finished and still have time, first of all **GOOD JOB!** 
 
 1. Let's make a recommended videos algorithm!!
-    - Firstly, add an attribute to **`YoutubeVideo`** class, call it `hashtag`. It should be a **list up to 5 words** that describe the video.
-    - Come up with a function called `recommended_videos`, the function should return the videos with similar hashtags!
+    - Firstly, add a key to the dictionary in **`create_youtube_video`**, call it `hashtag`. It should be a **list up to 5 words** that describe the video (the list should be taken as an input in the function).
+    - Come up with a function called `similarity_to_video`, the function should take two youtube video dictionaries and return the percentage of similarity of the two videos!
 
 
 
