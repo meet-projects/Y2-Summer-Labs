@@ -11,7 +11,6 @@ Refreshing your memories and reviewing specifically: Python basics, Lists, Dicti
 **First things first, *fork* this repo(sitory) and *clone* it to your desktop!**
 
 
-## OOP Section
 In this section, you are an engineer at Youtube!  
 Susan, the CEO of Youtube, asks you to create an easier way to access, modify, and create youtube videos.  
 You have an idea! Why not use Dictionaries? it's going to be super easy to do all of the requirements using them.
