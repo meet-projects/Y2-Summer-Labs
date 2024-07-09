@@ -7,13 +7,13 @@ In this lab, you will create a simple photo gallery web application using Flask.
 
 ### Step 1: Set Up Your Flask Environment
 
-1. Create a new directory for your project.
+1. Create a new folder for your project.
 2. Create a new file named `app.py` in your project directory.
 
 ### Step 2: Create HTML Files
 
-1. Create a `templates` directory in your project folder.
-2. Inside the `templates` directory, create the following HTML files with their respective content:
+1. Create a `templates` folder in your project folder.
+2. Inside the `templates` folder, create and add the following HTML files:
 
 #### `gallery.html`
 
