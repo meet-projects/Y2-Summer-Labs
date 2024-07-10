@@ -65,7 +65,7 @@ If not, make sure your code is saved in **Repl.it**!
 
 
 ## Bonus Problems: 
-1. In home.html:
+1. In **`add_tweet.html`**:
     - Add a button called signout.
     - create a new route called signout:
         - The route signs out the user and redirects him to the signin page.
