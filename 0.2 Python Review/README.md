@@ -66,6 +66,10 @@ If you have finished and still have time, first of all **GOOD JOB!**
     - Firstly, add a key to the dictionary in **`create_youtube_video`**, call it `hashtag`. It should be a **list up to 5 words** that describe the video (the list should be taken as an input in the function).
     - Come up with a function called `similarity_to_video`, the function should take two youtube video dictionaries and return the percentage of similarity of the two videos!
 
+2. Trending Videos Feature
+Add a feature to determine if a video is trending based on the number of **'likes'** and **'dislikes'**. 
+A video is considered trending if it has more than 20 likes and the number of **'likes'** is more than the number of **'dislikes'**.
+
 
 
 

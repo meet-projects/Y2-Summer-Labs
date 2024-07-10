@@ -7,9 +7,6 @@ In this lab, we will be reviewing conditionals, loops, and lists by creating a P
 - Identify the hottest and coldest days of the week.
 - Calculate which temperatures are above average.
 
-## Requirements
-
-- Python 3.x
 
 ## Instructions
 
