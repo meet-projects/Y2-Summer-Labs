@@ -17,7 +17,7 @@ You have an idea! Why not use Dictionaries? it's going to be super easy to do al
 
 1. Create a new Python file, called **`pythonReview.py`**.
 2. In `pythonReview.py`, create a new function called `create_youtube_video`.
-    - It should take 4 inputs:
+    - It should take 2 inputs:
         - `title` 
         -  `description`
     - The function should create a new youtube video dictionary with the following keys:
