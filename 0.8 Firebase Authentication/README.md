@@ -65,11 +65,16 @@ If not, make sure your code is saved in **Repl.it**!
 
 
 ## Bonus Problems: 
-1. In **`add_tweet.html`**:
+1. Show the user's name in the route and in the add_tweet.html.
+
+2. In **`add_tweet.html`**:
     - Add a button called signout.
     - create a new route called signout:
         - The route signs out the user and redirects him to the signin page.
 
+3. Add some styling to your web app!
+	Connect the **style.css** file to your html files
+	Add some colour, change the fonts, make it look nice (or horrible, your choice.)
 ##### Great job on completing the bonus problems section!  
 ###### Make sure your code is saved in Repl.it or on your machine!
 
