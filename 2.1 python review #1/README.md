@@ -47,9 +47,7 @@ In this lab, we will be reviewing conditionals, loops, and lists by creating a P
         - The average temperature.
         - Days with temperatures above the average.
 
-## Usage
-
-To run the script, execute the following command:
-
-```bash
-python python_review.py
+## Bonus task!
+create a new a list call it **`sorted_temp`**,
+sort out the temprtures from lowst to highest inside the `sorted_temp`.
+print the temprtures from lowest to highest.
