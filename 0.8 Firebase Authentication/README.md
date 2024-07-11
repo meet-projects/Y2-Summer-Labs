@@ -29,6 +29,7 @@ As well as setting up a Firebase project.
     1. In your Firebase project:
         - Go to project setting and create a web app.
         - Copy the firebaseconfig lines.
+        - make sure to add the `Database url`.
     2. In the app.py file:
         - Create a dictionary called config and paste the copied lines (make sure to fix the syntax errors).
         - Intialize the firebase using pyrebase.
