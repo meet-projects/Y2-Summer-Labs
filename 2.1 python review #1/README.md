@@ -48,7 +48,7 @@ In this lab, we will be reviewing conditionals, loops, and lists by creating a P
         - Days with temperatures above the average.
     - It should look something like this:
 
-   - <img src="https://raw.githubusercontent.com/meet-projects/Y2-Summer-Labs/master/2.1%20python%20review%20%231/temp%20report.jpg" width="650" height="550">
+   - <img src="https://raw.githubusercontent.com/meet-projects/Y2-Summer-Labs/master/2.1%20python%20review%20%231/temp%20report.jpg" width="670" height="650">
 
 ## Bonus task!
 create a new a list call it **`sorted_temp`**,
