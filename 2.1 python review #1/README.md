@@ -46,8 +46,8 @@ In this lab, we will be reviewing conditionals, loops, and lists by creating a P
         - The highest and lowest temperatures and their respective days.
         - The average temperature.
         - Days with temperatures above the average.
-    this is what it should look like:
-    <img src="" width="450"
+    It should look something like this:
+    <img src="https://raw.githubusercontent.com/meet-projects/Y2-Summer-Labs/master/2.1%20python%20review%20%231/temp%20report.jpg" width="450">
 
 ## Bonus task!
 create a new a list call it **`sorted_temp`**,
