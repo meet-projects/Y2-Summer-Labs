@@ -3,7 +3,7 @@
 ## Overview
 This project is a simple Flask web app that tells your fortune. When the user opens the app, they will see a home page with a title, a description, and a link that says “Tell me my fortune”. When they click the link, they will go to a page that displays their fortune.
 
- - <img src="https://raw.githubusercontent.com/meet-projects/Y2-Summer-Labs/master/0.6.%20Advanced%20Flask%20fortune-teller/fortune.jpg" width="670" height="530">
+ - <img src="https://raw.githubusercontent.com/meet-projects/Y2-Summer-Labs/master/0.6.%20Advanced%20Flask%20fortune-teller/fortune.jpg" >
 ## Instructions
 
 ### **Step 1: Initialize the Flask App and Create the `/home` Route**
