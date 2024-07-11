@@ -3,9 +3,10 @@
 ## Overview
 This project is a simple Flask web app that tells your fortune. When the user opens the app, they will see a home page with a title, a description, and a link that says “Tell me my fortune”. When they click the link, they will go to a page that displays their fortune.
 
+ - <img src="" width="670" height="530">
 ## Instructions
 
-### Step 1: Initialize the Flask App and Create the `/home` Route
+### **Step 1: Initialize the Flask App and Create the `/home` Route**
 1. Create a new file called `app.py`:
     ```python
     from flask import Flask, render_template
@@ -23,7 +24,7 @@ This project is a simple Flask web app that tells your fortune. When the user op
         app.run(debug=True)
     ```
 
-### Step 2: Create `home.html`
+### **Step 2: Create `home.html`**
 1. Create a folder named `templates`.
 2. Inside the `templates` folder, create a file named `home.html`:
     ```html
@@ -45,7 +46,7 @@ This project is a simple Flask web app that tells your fortune. When the user op
     </html>
     ```
 
-### Step 3: Create the `/fortune` Route and Template
+### **Step 3: Create the `/fortune` Route and Template**
 1. Add a route `/fortune` in `app.py`:
     ```python
     @app.route('/fortune')
@@ -81,7 +82,7 @@ This project is a simple Flask web app that tells your fortune. When the user op
     </html>
     ```
 
-### Step 4: Create the `/indecisive` Route and Template
+### **Step 4: Create the `/indecisive` Route and Template**
 1. Add a route `/indecisive` in `app.py`:
     ```python
     @app.route('/indecisive')
@@ -121,7 +122,7 @@ This project is a simple Flask web app that tells your fortune. When the user op
     </html>
     ```
 
-### Step 5: Create the `/magic` and `/response` Routes and Templates
+### **Step 5: Create the `/magic` and `/response` Routes and Templates**
 1. Add routes `/magic` and `/response` in `app.py`:
     ```python
     @app.route('/magic')
@@ -175,25 +176,25 @@ This project is a simple Flask web app that tells your fortune. When the user op
     </html>
     ```
 
-### Step 6: Run the App and Test
+### **Step 6: Run the App and Test**
 1. Run your Flask app:
     ```bash
-    python app.py
+    python3 app.py
     ```
 
 2. Open your browser and go to `http://127.0.0.1:5000/home` to see the home page. Test the links to ensure they navigate correctly and display the fortunes and magic 8 ball responses as expected.
 
-### Bonus Extensions
-#### Extension A: Indecisive Fortune Teller
-1. Ensure the `/indecisive` route chooses three distinct fortunes from the list.
-2. Modify the home page to include a link to the `/indecisive` route.
+### Bonus 
+#### 1 Indecisive Fortune Teller:
+- Ensure the `/indecisive` route chooses three distinct fortunes from the list.
+- Modify the home page to include a link to the `/indecisive` route.
 
-#### Extension B: Magic 8 Ball
-1. Add the `/magic` route to display a form where users can ask a yes or no question.
-2. Add the `/response` route to display a random answer from a predefined list of responses.
-3. Modify the home page to include a link to the `/magic` route.
+#### 2 Magic 8 Ball:
+-  Add the `/magic` route to display a form where users can ask a yes or no question.
+-  Add the `/response` route to display a random answer from a predefined list of responses.
+-  Modify the home page to include a link to the `/magic` route.
 
-### Styling and Enhancements
+### 3 styling:
 - Use HTML and CSS to beautify your app.
 - Add images, colors, styles, borders, backgrounds, centering, etc.
 
