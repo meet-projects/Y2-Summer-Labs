@@ -16,6 +16,8 @@ In this lab, we will be reviewing conditionals, loops, and lists by creating a P
 2. **Generate Random Temperatures**
     - Create an empty list called `temperatures`.
     - Fill the list with exactly 7 random temperatures between 26-40 using the `random` library.
+3. create another list and fill it with days of the week according to their order:
+    `days_of_the_week=["Sunday","Monday",....]`
     - The index of the list represents the day of the week:
         - 0: Sunday
         - 1: Monday
@@ -30,7 +32,7 @@ In this lab, we will be reviewing conditionals, loops, and lists by creating a P
     - Print the days that have even temperatures.
     - Create a variable `good_days_count` to store the number of good days.
 
-4. **Ibrahim's Hot Days**
+4. **Hot and Cold Days**
     - Find the highest and lowest temperatures of the week.
     - Save the highest temperature and the corresponding day to `highest_temp` and `highest_temp_day`.
     - Save the lowest temperature and the corresponding day to `lowest_temp` and `lowest_temp_day`.
