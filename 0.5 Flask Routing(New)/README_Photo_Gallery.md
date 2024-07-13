@@ -192,7 +192,7 @@ if __name__ == '__main__':
 
 1. Run the Flask application:
    ```bash
-   python app.py
+   python3 app.py
    ```
 2. Open your browser and go to `http://localhost:5000/` to see your photo gallery and test the routing.
 
