@@ -25,7 +25,7 @@ Refreshing your memories and reviewing specifically: HTML, CSS and JS.
 Add a link to the Wikipedia page about the animal or the topic you're interested in.
 <br/><br/>
 
-5. use the `<input type="radio">` to let the user pick their favorite color.
+5. use the `<input type="radio">`tag to let the user pick their favorite color.(if you're unfimliar with the tag, look it up!)
 
 ## CSS Section
 
