@@ -25,6 +25,8 @@ Refreshing your memories and reviewing specifically: HTML, CSS and JS.
 Add a link to the Wikipedia page about the animal or the topic you're interested in.
 <br/><br/>
 
+5. use the `<input type="radio">` to let the user pick their favorite color.
+
 ## CSS Section
 
 1. Use the Tag selector to change the background of your HTML page to your favorite color.<br/>
