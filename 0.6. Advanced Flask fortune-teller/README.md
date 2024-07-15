@@ -53,11 +53,12 @@ Come up with your own idea for an extension to your fortune teller and implement
 #### Step 1:
 Add a route `/indecisive` that does the following:
 - Create a list containing the same fortunes that you made in route `/fortune`.
-- Choose three random fortunes from the list.
+- Use a loop and the `random` library to select 3 random  fortunes from the list and save them inside a new list called `indesisive_fortunes`, then pass the list through the `indecisive` route .
 - Display a template `indecisive.html`, passing it the list of three random fortunes.
 
 #### Step 2:
-Create a template `indecisive.html` in your templates folder. This page should display text along the lines of “I’m not sure what will happen to you, but it will be one of the following three things:” and then list the three chosen fortunes. You can choose exactly what to say and how to display it!
+- Create a template `indecisive.html` in your templates folder. This page should display text along the lines of “I’m not sure what will happen to you, but it will be one of the following three things:” 
+- loop through the list you passed in `indecisive` route and show the three random options.You can choose exactly what to say and how to display it!
 
 #### Step 3:
 Add a link to the `/indecisive` route on the home page so that the user can choose if they’d rather ask a decisive or indecisive program for their fate.
@@ -67,7 +68,7 @@ Run and test your app and fix any errors that occur.
 
 **EXTRA BONUS:** Ensure that the three chosen fortunes are always distinct (i.e. there are no repeats).
 
-### Bonus B: Magic 8 Ball
+### Bonus B: Magic 8 Ball(Never heard of a magic 8 ball? [Read more about it here](https://en.wikipedia.org/wiki/Magic_8_Ball))
 
 #### Step 1:
 Add a route `/magic` that displays an HTML template `magic.html`.
