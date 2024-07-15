@@ -7,196 +7,91 @@ This project is a simple Flask web app that tells your fortune. When the user op
 
 ## Instructions
 
-### **Step 1: Initialize the Flask App and Create the `/home` Route**
-1. Create a new file called `app.py`:
-    ```python
-    from flask import Flask, render_template
-    import random
+# Advanced Flask Lab: The Fortune Teller
 
-    app = Flask(__name__)
+## Overview:
+Today, we will be building a web app that tells your fortune. When the user opens the app, they should see a home page with a title, a description, and a link that says “Tell me my fortune”. When they click the link, they will go to a page that displays their fortune.
 
-    # Route for the home page
-    @app.route('/home')
-    def home():
-        return render_template('home.html')
+## Instructions:
 
-    # Run the Flask app
-    if __name__ == '__main__':
-        app.run(debug=True)
-    ```
+### Step 1:
+Add a route `/home` so that when the user tries to access `127.0.0.1:5000/home` the template `home.html` is displayed.
 
-### **Step 2: Create `home.html`**
-1. Create a folder named `templates`.
-2. Inside the `templates` folder, create a file named `home.html`:
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Fortune Teller</title>
-    </head>
-    <body>
-        <h1>Welcome to the Fortune Teller</h1>
-        <p>Click the link below to get your fortune!</p>
-        <a href="/fortune">Tell me my fortune</a>
-        <br>
-        <a href="/indecisive">Indecisive Fortune Teller</a>
-        <br>
-        <a href="/magic">Magic 8 Ball</a>
-    </body>
-    </html>
-    ```
+### Step 2:
+Complete the template `home.html`. For now, make it fairly simple with a title, description, and link to tell your fortune. The link should take you to the route `fortune`.
 
-### **Step 3: Create the `/fortune` Route and Template**
-1. Add a route `/fortune` in `app.py`:
-    ```python
-    @app.route('/fortune')
-    def fortune():
-        fortunes = [
-            "You will have a great day!",
-            "A surprise is waiting for you.",
-            "Today is your lucky day!",
-            "Happiness will find you.",
-            "Be cautious today.",
-            "You will meet someone special.",
-            "An opportunity will arise.",
-            "Expect the unexpected.",
-            "Good news is coming your way.",
-            "You will achieve your goals."
-        ]
-        chosen_fortune = random.choice(fortunes)
-        return render_template('fortune.html', fortune=chosen_fortune)
-    ```
+### Step 3:
+Try to run your app! Check that the home page displays as you intended. Obviously, the Fortune link won’t work yet. Debug any problems that may arise.
 
-2. Create a file named `fortune.html` in the `templates` folder:
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Your Fortune</title>
-    </head>
-    <body>
-        <h1>Your fortune is:</h1>
-        <p>{{ fortune }}</p>
-    </body>
-    </html>
-    ```
+### Step 4:
+Add a route `/fortune` that does the following:
+- Create a list with at least 10 possible fortunes (each fortune should be a string).
+- Choose a random fortune from this list (Hint: start by choosing a random int…remember the Python review!).
+- Display the template `fortune.html`, passing it the chosen fortune.
 
-### **Step 4: Create the `/indecisive` Route and Template**
-1. Add a route `/indecisive` in `app.py`:
-    ```python
-    @app.route('/indecisive')
-    def indecisive():
-        fortunes = [
-            "You will have a great day!",
-            "A surprise is waiting for you.",
-            "Today is your lucky day!",
-            "Happiness will find you.",
-            "Be cautious today.",
-            "You will meet someone special.",
-            "An opportunity will arise.",
-            "Expect the unexpected.",
-            "Good news is coming your way.",
-            "You will achieve your goals."
-        ]
-        chosen_fortunes = random.sample(fortunes, 3)
-        return render_template('indecisive.html', fortunes=chosen_fortunes)
-    ```
+### Step 5:
+Complete the template `fortune.html`. It should say something like “Your fortune is:” and then display the random fortune that was chosen and passed to the template. (e.g. “Your fortune is: Abdalla is going to chase you around IASA”).
 
-2. Create a file named `indecisive.html` in the `templates` folder:
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Indecisive Fortune</title>
-    </head>
-    <body>
-        <h1>I'm not sure what will happen to you, but it will be one of the following three things:</h1>
-        <ul>
-            {% for fortune in fortunes %}
-            <li>{{ fortune }}</li>
-            {% endfor %}
-        </ul>
-    </body>
-    </html>
-    ```
+### Step 6:
+Try to run your app again! Check that everything works as intended. Debug any problems that may arise.
 
-### **Step 5: Create the `/magic` and `/response` Routes and Templates**
-1. Add routes `/magic` and `/response` in `app.py`:
-    ```python
-    @app.route('/magic')
-    def magic():
-        return render_template('magic.html')
+If you finish up to here before the end of the session, great job! You can do one or both of the following options as a bonus:
 
-    @app.route('/response')
-    def response():
-        responses = [
-            "Yes",
-            "No",
-            "Maybe",
-            "Only on Tuesdays",
-            "I think so, but one can never be sure",
-            "Why are you asking me?"
-        ]
-        chosen_response = random.choice(responses)
-        return render_template('response.html', response=chosen_response)
-    ```
+### Option 1:
+Use HTML and/or CSS to beautify your app! You can add images, colors, styles, borders, backgrounds, centering… whatever inspires you.
 
-2. Create a file named `magic.html` in the `templates` folder:
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Magic 8 Ball</title>
-    </head>
-    <body>
-        <h1>Ask a yes or no question:</h1>
-        <form action="/response">
-            <input type="text" name="question" placeholder="Type your question here">
-            <button type="submit">Ask</button>
-        </form>
-    </body>
-    </html>
-    ```
+### Option 2:
+Try some of the challenges below to add more features to your fortune telling app!
 
-3. Create a file named `response.html` in the `templates` folder:
-    ```html
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Magic 8 Ball Response</title>
-    </head>
-    <body>
-        <h1>Your answer is:</h1>
-        <p>{{ response }}</p>
-    </body>
-    </html>
-    ```
+### Option 3:
+Come up with your own idea for an extension to your fortune teller and implement it!
 
-### **Step 6: Run the App and Test**
-1. Run your Flask app:
-    ```bash
-    python3 app.py
-    ```
+## Bonuses/Extensions:
 
-2. Open your browser and go to `http://127.0.0.1:5000/home` to see the home page. Test the links to ensure they navigate correctly and display the fortunes and magic 8 ball responses as expected.
+### Bonus A: Indecisive Fortune Teller
 
-### Bonus 
-#### 1 Indecisive Fortune Teller:
-- Ensure the `/indecisive` route chooses three distinct fortunes from the list.
-- Modify the home page to include a link to the `/indecisive` route.
+#### Step 1:
+Add a route `/indecisive` that does the following:
+- Create a list containing the same fortunes that you made in route `/fortune`.
+- Choose three random fortunes from the list.
+- Display a template `indecisive.html`, passing it the list of three random fortunes.
 
-#### 2 Magic 8 Ball:
--  Add the `/magic` route to display a form where users can ask a yes or no question.
--  Add the `/response` route to display a random answer from a predefined list of responses.
--  Modify the home page to include a link to the `/magic` route.
+#### Step 2:
+Create a template `indecisive.html` in your templates folder. This page should display text along the lines of “I’m not sure what will happen to you, but it will be one of the following three things:” and then list the three chosen fortunes. You can choose exactly what to say and how to display it!
 
-### 3 styling:
-- Use HTML and CSS to beautify your app.
-- Add images, colors, styles, borders, backgrounds, centering, etc.
+#### Step 3:
+Add a link to the `/indecisive` route on the home page so that the user can choose if they’d rather ask a decisive or indecisive program for their fate.
 
-Great job on completing the Fortune Teller app! If you finish early, try implementing the bonus extensions or come up with your own ideas to enhance the app further.
+#### Step 4:
+Run and test your app and fix any errors that occur.
+
+**EXTRA BONUS:** Ensure that the three chosen fortunes are always distinct (i.e. there are no repeats).
+
+### Bonus B: Magic 8 Ball
+
+#### Step 1:
+Add a route `/magic` that displays an HTML template `magic.html`.
+
+#### Step 2:
+Create a template `magic.html` in the template folder that displays the text “Ask a yes or no question”, a text input HTML tag that allows the user to type a yes or no question, and a button whose `onClick` method is a link to a route `/response`.
+
+#### Step 3:
+Add a link to the `/magic` route on the home page.
+
+#### Step 4:
+Run your app and test that everything looks good so far except for the actual button click, which shouldn’t work yet because you haven’t yet defined the route `/response`.
+
+#### Step 5:
+Add a route `/response` that does the following:
+- Choose a random integer between 1 and 3.
+- Display a template `response.html`, passing the integer you chose.
+
+#### Step 6:
+Create a template `response.html`. This page should display just one line of text, determined as follows:
+- If the integer is 1, it displays "yes".
+- If the integer is 2, it displays "no".
+- If the integer is 3, it displays whatever silly answer you want. For example, “only on Tuesdays” or “I think so, but one can never be sure” or “why are you asking me?”...use your creativity!
+
+#### Step 7:
+Run and test your app and fix any errors that occur.
+
