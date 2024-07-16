@@ -59,3 +59,11 @@ If you have finished and still have time, first of all **GOOD JOB!**
         2. On 1st button click, the background will change to Yellow.
         3. On 2nd button click, the background will change to Blue.
         4. And so on... (Keeps switching between Yellow and Blue on every new click!)
+2. Add a button that plays a song of your choice
+    - *Use a drop down to switch between audios
+    
+3. Add a button that makes the background color change continuously.
+
+4. Remember the images we added? Now let’s add a video from your favorite youtuber!
+*Create a list of video URLs, and use a button to switch through them
+
