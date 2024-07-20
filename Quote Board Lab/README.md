@@ -20,10 +20,8 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
    In your project folder, create the following directories and files:
    - `static`: Folder for CSS files.
    - `templates`: Folder for HTML template files.
-
-
    - `SignUp.html`: Template that contains a form where users can sign up.
-  - `SignIn.html`: Template that contains a form where users can sign In.
+   - `SignIn.html`: Template that contains a form where users can sign In.
    - `home.html`: Template for the home page where users can submit quotes.
    - `display.html`: Template for displaying the submitted quotes.
    - `thanks.html`: Template for thanking users after successfully submitting a quote.
@@ -55,7 +53,7 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 -  Create routes for each HTML page that redirects to that page.
 
 
-## Part 2:SignUp 
+## Part 2: Sign Up 
 
 1. **Add Form to `SignUp.html`**
 
@@ -72,7 +70,7 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 
 
 
-## Part 3:SignIn 
+## Part 3: Sign In 
 
 1. **Add Form to `SignIn.html`**
 
@@ -104,7 +102,7 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
    Use `try` and `except` to handle errors with storing the form responses in the login session. If there is an error, users should be redirected to `error.html`.
 
 
-## Part 3: Display Page
+## Part 4: Display Page
 
 
 1. **Fill in `display.html`**
