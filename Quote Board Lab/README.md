@@ -20,12 +20,11 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
    In your project folder, create the following directories and files:
    - `static`: Folder for CSS files.
    - `templates`: Folder for HTML template files.
-   - `SignUp.html`: Template that contains a form where users can sign up.
-   - `SignIn.html`: Template that contains a form where users can sign In.
+   - `signup.html`: Template that contains a form where users can sign up.
+   - `signin.html`: Template that contains a form where users can sign In.
    - `home.html`: Template for the home page where users can submit quotes.
    - `display.html`: Template for displaying the submitted quotes.
-   - `thanks.html`: Template for thanking users after successfully submitting a quote.
-   - `error.html`: Template for handling errors.
+   - `thanks.html`: Template to thank the user for submiting the quote
    - `app.py`: Main Python file for the Flask application.
 
 
@@ -50,22 +49,23 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 
 4. **Add Routes**
 
--  Create routes for each HTML page that redirects to that page.
+-  Create routes  `/signin`, `/home`, and `/display` that each render the corresponding html page.
+-  Create the route `/` that renders the `signup.html` page
 
 
 ## Part 2: Sign Up 
 
-1. **Add Form to `SignUp.html`**
+1. **Add Form to `signup.html`**
 
-- Create a form in `SignUp.html` to take in the user’s email and password.
+- Create a form in `signup.html` to take in the user’s email and password.
+- Create a link with the `<a>` tag below the form that says "Already have an account? Sign in here." and take the user to the `/signin` route
 
 
 2. **in the signup route:**
 
 - If the method is 'POST' take the inputs and create a user with email & password.
 - Don't forget to store the user in the login session and to use try and except.
-- Redirect the route to the home page.
-- For Authentication you need a valid email and a 6 character long password.
+- Send the user to the `/home` route.
 
 
 
@@ -81,14 +81,14 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 
 - If the method is 'POST' take the inputs and signin the user with email & password.
 - Don't forget to store the user in the login session and to use try and except.
-- Redirect the route to the home page.
+- Send the user to the `/home` route.
 
-- Show the user's name in the route and in the display.html.
 - **In home.html:**
 - Add a button called signout.
 - create a new route called signout:
 - The route signs out the user and redirects him to the signin page.
 
+**STOP HERE AND TEST EVERYTHING TO MAKE SURE IT WORKS**
 
 3. **Link to Thanks Route**
 
