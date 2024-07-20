@@ -60,13 +60,13 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 - Create a form in `signup.html` to take in the user’s email and password.
 - Create a link with the `<a>` tag below the form that says "Already have an account? Sign in here." and take the user to the `/signin` route
 
-
 2. **in the signup route:**
 
 - If the method is 'POST' take the inputs and create a user with email & password.
 - Store the user in the `session` and also add a key `"quotes"` to the `session` whose value is an empty list.
 - When the user submits, send the user to the `/home` route.
 
+STOP HERE AND TEST EVERYTHING TO MAKE SURE THE APP RUNS. SUBMIT AN EMAIL AND PASSWORD (AT LEAST 6 CHARACTERS LONG) AND CHECK THAT IT APPEARS IN THE FIREBASE CONSOLE ONLINE.
 
 ## Part 3: Sign In 
 
