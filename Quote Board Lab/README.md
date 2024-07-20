@@ -34,7 +34,7 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 1. **Import Packages and Libraries**
 
 
-   Import all the relevant packages and libraries in `app.py`.
+   Import all the relevant packages and libraries in `app.py` and import `session`
 
 
 2. **Initialize Your App**
@@ -49,8 +49,8 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 
 4. **Add Routes**
 
--  Create routes  `/signin`, `/home`, and `/display` that each render the corresponding html page.
--  Create the route `/` that renders the `signup.html` page
+-  Create routes  `/signin`, `/home`, `/thanks` and `/display` that each render the corresponding html page.
+-  Create the main route (`/`) that renders the `signup.html` page
 
 
 ## Part 2: Sign Up 
@@ -64,10 +64,8 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 2. **in the signup route:**
 
 - If the method is 'POST' take the inputs and create a user with email & password.
-- Don't forget to store the user in the login session and to use try and except.
-- Send the user to the `/home` route.
-
-
+- Store the user in the `session` and also add a key `"quotes"` to the `session` whose value is an empty list.
+- When the user submits, send the user to the `/home` route.
 
 
 ## Part 3: Sign In 
@@ -80,84 +78,39 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 2. **In the signin route:**
 
 - If the method is 'POST' take the inputs and signin the user with email & password.
-- Don't forget to store the user in the login session and to use try and except.
-- Send the user to the `/home` route.
+- Store the user in the `session` and also add a key `"quotes"` to the `session` whose value is an empty list.
+- When the user submits, send the user to the `/home` route.
 
-- **In home.html:**
+3. **In home.html:**
 - Add a button called signout.
 - create a new route called signout:
 - The route signs out the user and redirects him to the signin page.
 
-**STOP HERE AND TEST EVERYTHING TO MAKE SURE IT WORKS**
+STOP HERE AND TEST EVERYTHING TO MAKE SURE IT WORKS
 
-3. **Link to Thanks Route**
+## Part 4: Adding Quotes 
 
+1. **In home.html:**
+- create a form with a single text box and a message for the user to type in their quote. The form should send a POST request to the route `/home`.
 
-   Add a link in `thanks.html` to redirect back to the home page.
+2. **In the home route:**
+- If the method is 'POST' take the input from the form and add it to the `quotes` list in the `session`
+- Once the quote is added redirect the user to the `/thanks` route.
+  
+3. **In thanks.html**
+- Thank the user for submiting a quote and offer two links: one back to the `/home` route to submit another quote and one to the `/display` route to view all the quotes submitted so far.
 
+## Part 5: Displaying Quotes 
 
-4. **Handle Errors**
+1. **In the display route:**
+- Get the list of quotes from the `session` and pass it to the `display.html` page using `render_template`.
 
-
-   Use `try` and `except` to handle errors with storing the form responses in the login session. If there is an error, users should be redirected to `error.html`.
-
-
-## Part 4: Display Page
-
-
-1. **Fill in `display.html`**
-
-
-   Create a template in `display.html` to display a quote, author, and age.
-
-
-2. **Pass Information to `display.html`**
-
-
-   Pass information from `login_session` to `display.html`.
-
-
-3. **Check Display Page**
-
-
-   Ensure that the display page correctly shows the quote that a user enters.
+2. **In display,html:**
+- Loop through the list using jinja (see the Advanced Flask slides if you forgot how to do this) and display the quotes to the user
+- Add a link to take you back to the `/home` route.
 
 
 
-## REALTIME DATABASE
-1. Setting up Realtime Database in `Firebase`:
-    1. Go to your console and choose your project.
-    2. Go to Realtime Database and create a database.
-    3. Go to rules and change false to true.
-    4. Make sure to copy the database's link.
-
-2. Setting up Realtime Database in `app.py`:
-    1. In the config dictionary add databaseURL as a key and the link you copied as the value.
-    2. Intialize the 'db' using the firebase object.
-
-
-3. Add in `signup.html` 3 more inputs:(you already have the email and passoword)
-    1. `full_name`
-    2. `username`
-    3. `bio` - It should take a maximum of 280 letters.
-
-
-4. When the user signs up:
-    - Create a dictionary called user that contains the inputs as keys and values.
-    - Add the user to the `database` through the child `Users` adding him through his uid (retrieve it through login_session).
-
-
-5. Create a form in `home.html` to add a Quote from Staff members to the database:
-    - The form should contain:
-        - `Title`.
-        - `Text`- It should take a maximum of 280 letters.
-        - `Image link` - This should be optional (We'll set this feature up later)
-
-
-6. When the user submits a Quote:
-    - Create a dictionary called `Quote` that contains the inputs as keys and values.
-    - In the dictionary add a key named `uid` and the value as the uid of the user that wrote the quote.
-    - Add the quote using the child `Quotes` to the `database` with a random key.
 
         
 7. Create an html page called Quotes.html:
