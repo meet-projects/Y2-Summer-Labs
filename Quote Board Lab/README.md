@@ -108,12 +108,3 @@ STOP HERE AND TEST EVERYTHING TO MAKE SURE IT WORKS
 2. **In display,html:**
 - Loop through the list using jinja (see the Advanced Flask slides if you forgot how to do this) and display the quotes to the user
 - Add a link to take you back to the `/home` route.
-
-
-
-
-        
-7. Create an html page called Quotes.html:
-    - in this html page display all the quotes that were written:
-        - Go to the child `Quotes` and use get().val()
-        
