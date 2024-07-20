@@ -11,7 +11,7 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 1. **Create Project Folder**
 
 
-   Inside the `Y2 SUMMER LABS` directory, create a folder named `Login-Session-Lab`.
+   Inside the `Y2 SUMMER LABS` directory, create a folder named `Authentication-Lab`.
 
 
 2. **Project Structure**
@@ -23,7 +23,7 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 
 
    - `SignUp.html`: Template that contains a form where users can sign up.
-  - `SignIm.html`: Template that contains a form where users can sign In.
+  - `SignIn.html`: Template that contains a form where users can sign In.
    - `home.html`: Template for the home page where users can submit quotes.
    - `display.html`: Template for displaying the submitted quotes.
    - `thanks.html`: Template for thanking users after successfully submitting a quote.
