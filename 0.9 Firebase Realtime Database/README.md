@@ -33,3 +33,9 @@
     - Create a dictionary called `Quote` that contains the inputs as keys and values.
     - In the dictionary add a key named `uid` and the value as the uid of the user that wrote the quote.
     - Add the quote using the child `Quotes` to the `database` with a random key.
+
+7. Create an html page called Quotes.html:
+    - in this html page display all the quotes that were written:
+        - Go to the child `Quotes` and use get().val()
+        
+
