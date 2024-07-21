@@ -21,12 +21,14 @@
 
 5. In the `/home` route of `app.py`:
     - Create a dictionary called `quote` that contains `hearer`, `speaker`, and `text` as keys.
-    - Get the uid of the current user from the `session`
-    - Add a key `uid` to the dictionary `quote` with the value as the uid of the user that wrote the quote.
+    - Get the uid of the current user from the `session` and store it in the variable `userid`
+    - Add a key `uid` to the dictionary `quote` with the value `userid`
     - Add the quote to the database using the child `Quotes` with a random key.
+  
+6. In the `/display` route of `app.py`:
+    - get the dictionary of all the quotes in the database using `get().val()` and pass it to `display.html` instead of the list of quotes you passed yesterday
 
-8. Create an html page called Quotes.html:
-    - in this html page display all the quotes that were written:
-        - Go to the child `Quotes` and use get().val()
+7. In `display.html`:
+    - change your loop to account for the fact that you now have a dictionary instead of list and display both the text of the quote and the person who said
         
 
