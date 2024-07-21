@@ -5,14 +5,12 @@
    - Intialize the database with the line `db =firebase.database()` after the variable `firebase` has been defined
 
 
-3. Add three more inputs to the form in `signup.html` that takes the email and passoword:
+3. Add two more inputs to the form in `signup.html` that takes the email and passoword:
    - `full_name`
    - `username`
-   - `bio` that takes a maximum of 280 characters.
-
 
 4. In the `/` route of `app.py`:
-    - Create a dictionary called `user` that contains the keys `full_name`, `email`, `username`, and `bio` as keys and the corresponding user inputs as values.
+    - Create a dictionary called `user` that contains the keys `full_name`, `email`, and `username` as keys and the corresponding user inputs as values.
     - Add the `user` dictionary to the database through the child `Users` adding him through his uid (retrieve it through the `session`).
 
 5. Add two more inputs to the form in `home.html`:
