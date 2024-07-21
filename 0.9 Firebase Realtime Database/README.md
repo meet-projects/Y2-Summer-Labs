@@ -14,20 +14,18 @@
     - After you define `session['user']`, retrieve the user ID from the session and store it in a variable `UID`
     - Add the `user` dictionary you made to the database through the child `Users` and using `UID` as the ID.
       
-5. Add two more inputs to the form in `home.html`:
-    -`hearer`: who overheard the quote and is submiting it 
-    -`speaker`: which staff member said the quote
-
-6. In the `/home` route of `app.py`:
-    - Create a dictionary called `quote` that contains `hearer`, `speaker`, and `text` as keys.
+5. Add another input to the form in `home.html` for the user to input who said the quote
+   
+7. In the `/home` route of `app.py`:
+    - Create a dictionary called `quote` that contains the keys `'text'` and `'said_by'` with values coming from the user inputs.
     - Get the uid of the current user from the `session` and store it in the variable `userid`
     - Add a key `uid` to the dictionary `quote` with the value `userid`
     - Add the quote to the database using the child `Quotes` with a random key.
   
-7. In the `/display` route of `app.py`:
+8. In the `/display` route of `app.py`:
     - get the dictionary of all the quotes in the database using `get().val()` and pass it to `display.html` instead of the list of quotes you passed yesterday
 
-8. In `display.html`:
+9. In `display.html`:
     - change your loop to account for the fact that you now have a dictionary instead of list and display both the text of the quote and the person who said
         
 
