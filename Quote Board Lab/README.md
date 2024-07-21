@@ -68,7 +68,7 @@ it's not just any quotes, it's Quotes from your favorite staff members!!
 
 STOP HERE AND TEST EVERYTHING TO MAKE SURE THE APP RUNS. SUBMIT AN EMAIL AND PASSWORD (AT LEAST 6 CHARACTERS LONG) AND CHECK THAT IT APPEARS IN THE FIREBASE CONSOLE ONLINE.
 
-## Part 3: Sign In 
+## Part 3: Sign In and Sign Out
 
 1. **Add Form to `SignIn.html`**
 
@@ -83,8 +83,11 @@ STOP HERE AND TEST EVERYTHING TO MAKE SURE THE APP RUNS. SUBMIT AN EMAIL AND PAS
 
 3. **In home.html:**
 - Add a button called signout.
-- create a new route called signout:
-- The route signs out the user and redirects him to the signin page.
+- When the button is clicked, the user should be sent to a new route `/signout`.
+
+4. **In app.py:**
+- create a new route called `/signout`:
+- The route should sign out the user and redirect him to the signin page.
 
 STOP HERE AND TEST EVERYTHING TO MAKE SURE IT WORKS
 
@@ -95,10 +98,12 @@ STOP HERE AND TEST EVERYTHING TO MAKE SURE IT WORKS
 
 2. **In the home route:**
 - If the method is 'POST' take the input from the form and add it to the `quotes` list in the `session`
-- Once the quote is added redirect the user to the `/thanks` route.
+- Once the quote is added, redirect the user to the `/thanks` route.
   
 3. **In thanks.html**
 - Thank the user for submiting a quote and offer two links: one back to the `/home` route to submit another quote and one to the `/display` route to view all the quotes submitted so far.
+
+STOP HERE AND TEST EVERYTHING TO MAKE SURE IT WORKS
 
 ## Part 5: Displaying Quotes 
 
@@ -108,3 +113,17 @@ STOP HERE AND TEST EVERYTHING TO MAKE SURE IT WORKS
 2. **In display,html:**
 - Loop through the list using jinja (see the Advanced Flask slides if you forgot how to do this) and display the quotes to the user
 - Add a link to take you back to the `/home` route.
+
+## Bonuses
+
+1. **Errors:**
+- create a page `error.html` and use a try/except block to direct users to this page if something goes wrong with authentication, for example, if they write the wrong password.
+
+2. **Authentication:**
+- when a user makes a GET request to the home or display routes, check that they are signed in before dispaying the page. If not, redirect them to the signup page
+
+3. **Quotes:**
+- add a text box to the home page for users to write who said the quote, and optionally any other info you want to gather about the quote. Store the quote as a dictionary with keys `"quote"`, `"speaker"`, etc, so that now `session['quotes']` is a list of dictionaries. Change the `display.html` page to display this info nicely.
+
+4. **Have fun:**
+- once you've done everything else, add whatever other features you want to the app. Be creative!
