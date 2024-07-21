@@ -10,9 +10,10 @@
    - `username`
 
 4. In the `/` route of `app.py`:
-    - Create a dictionary called `user` that contains the keys `full_name`, `email`, and `username` as keys and the corresponding user inputs as values.
-    - Add the `user` dictionary to the database through the child `Users` adding him through his uid (retrieve it through the `session`).
-
+    - Right after you get the email and password from the form, create a dictionary called `user` that contains the keys `full_name`, `email`, and `username` as keys and the corresponding user inputs as values.
+    - After you define `session['user']`, retrieve the user ID from the session and store it in a variable `UID`
+    - Add the `user` dictionary you made to the database through the child `Users` and using `UID` as the ID.
+      
 5. Add two more inputs to the form in `home.html`:
     -`hearer`: who overheard the quote and is submiting it 
     -`speaker`: which staff member said the quote
