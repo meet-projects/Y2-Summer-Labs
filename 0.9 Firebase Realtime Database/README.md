@@ -25,6 +25,6 @@
     - get the dictionary of all the quotes in the database using `get().val()` and pass it to `display.html` instead of the list of quotes you passed yesterday
 
 10. In `display.html`:
-    - change your loop to account for the fact that you now have a dictionary instead of list and display both the text of the quote and the person who said
+    - change your loop to account for the fact that you now have a dictionary instead of list and display both the text of the quote and the person who said it.
         
 
