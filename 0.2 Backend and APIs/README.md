@@ -88,3 +88,23 @@ Usage: input_tokens=45, output_tokens=30
 🔴 **Bonus 3**
 - Estimate the cost of the conversation using Haiku pricing (~$0.25 per million input tokens, ~$1.25 per million output tokens).
 - Print the estimated cost in cents after every turn.
+
+
+<br>
+
+## 🧠 Reflection — Lab 0.2
+
+*~10 min at the end of lab. Solo and honest.*
+
+**1 · Personal Analogy — tokens as the unit of cost.**
+Tokens are what you pay in. Every message in `history` gets re-sent and re-counted *every*
+turn, so the longer the chat runs, the more each new reply costs. **Where in your world
+does a price quietly add up per-unit like this — something you actually keep an eye on?**
+(Banned: "it's like a taxi meter." Find your own. 2–4 sentences.)
+
+**2 · If I Deleted This Line — pick any 3, predict *first*, then delete & run:**
+- `history.append({'role': 'user', 'content': user_input})` — what does the AI now receive, and what happens to `input_tokens`?
+- `history.append({'role': 'assistant', 'content': reply})` — what does the AI forget, and how does the token count grow differently?
+- `print('History so far:', history)` — you lose visibility... but does the AI *behave* any differently? (Difference between debug output and logic.)
+
+**3 · Bug Diary.** One bug, logged live — first guess, real cause, the gap.

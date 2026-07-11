@@ -91,3 +91,27 @@ worried about — technical coding, system design, or behavioral?
 - Make the agent score the user's responses (e.g., for interview practice, rate each answer 1–5 and explain why).
 - Include the scoring rubric in the system prompt.
 - Track the scores in a list and print the average at the end.
+
+
+<br>
+
+## 🧠 Reflection — Lab 0.3
+
+*~10 min at the end of lab. Solo and honest. This is your Mini Project 1 — the reflection is part of building it well.*
+
+**1 · Personal Analogy — the system prompt as the invisible hand.**
+Your agent's `system_message` is invisible to the user, but it shapes *every* answer — the
+user never typed it and never sees it, yet it's always steering. **In your world, what
+plays that role? What invisible thing shapes how something behaves that outsiders never
+see?** (Banned: "it's like DNA." Yours only. 2–4 sentences.)
+
+**2 · If I Deleted This Line — pick any 3, predict *first*, then delete & run:**
+- `system=system_message` — what does your carefully-designed agent become without it?
+- one **Always / Never** rule line *inside* your `system_message` — predict the exact behavior change, then test it. (Best one — it's *your* prompt.)
+- one line of your **response-format** instructions in the system prompt — how do replies change?
+- *(if you did the bonuses)* the `/summary` block, or `scores.append(...)` — predict what quietly stops working.
+
+**3 · Bug Diary.** One bug, logged live — first guess, real cause, the gap.
+
+**Bonus — growth check:** re-read your analogy from Lab 0.1. Does it still make sense now
+that you know more? Rewrite it in one sharper sentence.
