@@ -1,26 +1,14 @@
-> ### Read this before you write a single line of code.
+> ### Read this before you start.
 >
-> Here's the thing nobody says out loud: this summer, an AI could finish most of these
-> labs for you in about thirty seconds. You could paste every prompt, submit every
-> `app.py`, and "complete" the course having learned almost nothing. The labs would be
-> green. Your brain would be untouched.
->
-> So let's be honest with each other. **These labs are not the point. What happens in
-> your head while you build them is the point.**
->
-> Getting code to run is now the easy part — the model does that. The rare, valuable
-> skill is *understanding what you built*: knowing why it works, predicting what breaks,
-> and catching the AI when it's wrong. That's the difference between a builder and a
-> person who pastes.
+> AI can help you write code, but understanding that code is what makes you progress and become true problem solvers.
 >
 > That's why every lab ends with a short reflection — an analogy, a bug diary, a "what
 > breaks if I delete this line." Ten minutes. An AI **can't** do them for you, because
 > they run on *your* experience, not the internet's. Do them honestly and you leave this
-> summer genuinely dangerous. Skip them and you'll have a folder full of code you can't
-> explain in an interview.
+> summer powerful.
 >
-> Watching match highlights isn't the same as playing the game. You'd know the score.
-> You'd have missed everything that mattered.
+> The goal isn't just to submit working code, it's to build the understanding and problem-solving skills that stay with
+> you long after this summer ends.
 >
 > Let's build. 🛠️
 >
