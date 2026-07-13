@@ -31,16 +31,19 @@ This is the moment it clicks: an AI application is just Python code that sends a
 
 ### Step 0: Folder Setup
 
-- Create a new folder on your desktop called `agent`.
-- Open it in VS Code — this is where you will be working all summer. Every new file you create will live here.
+- Open the forked and cloned repository in VS code and inside of the repository create a folder called `agent`.
+- The cloned repository "Y2-Summer26-Indivdual" is where you will be working all summer. Every new folder/file you create will live here.
 
 ### Step 1: Setup — Get the base code running
 
-- Create a new file called `app.py` and paste in the starter code below.
+- Create a new file called `app.py` inside the agent folder and paste the starter code below inside of it.
 - Create a file called `.env` in the same folder and add your API key:
   ```
   ANTHROPIC_API_KEY=your-key-here
   ```
+  #NOTE: THE API KEY ISN'T IN QUOTATION MARKS ("")
+  ```
+  As we talked in class, we need to create a virtual environment in which we install new packages to Python; so before we install the Anthropic package, we need to create the virtual environment sing the following commands in the VS Code terminal.
 - In your terminal, install the required packages:
   ```
   pip install anthropic python-dotenv
