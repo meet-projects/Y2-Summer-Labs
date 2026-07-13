@@ -52,7 +52,7 @@ The goal is not just to make it work — it is to understand **why** it works.
 
 # Parameters you will experiment with:
 response = client.messages.create(
-    model='claude-3-haiku-20240307',
+    model='claude-haiku-4-5-20251001',
     max_tokens=300,   # try 50, then 500
     temperature=0.7,  # try 0, then 1
     system=system_message,
