@@ -50,7 +50,7 @@ All work in Bolt is done by **prompting** — you describe what you want, Bolt b
 Build a clean chat web app with the following:
 
 - A chat interface where the user types messages and the AI responds
-- The AI is powered by the Anthropic Claude API (claude-3-haiku-20240307)
+- The AI is powered by the Anthropic Claude API (claude-haiku-4-5-20251001)
 - Use this exact system prompt for the AI:
   [PASTE YOUR SYSTEM PROMPT HERE]
 - Keep a conversation history so the AI remembers earlier messages
