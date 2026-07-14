@@ -64,10 +64,11 @@ Build a clean chat web app with the following:
 - Then add: ANTHROPIC_BASE_URL=https://meet-api-proxy......
 
 ```
+--
 In Bolt's env panel set both:
 ANTHROPIC_API_KEY=meet......
 ANTHROPIC_BASE_URL=https://meet-......
----
+--
 
 ## Expected Output
 
