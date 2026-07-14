@@ -60,9 +60,13 @@ Build a clean chat web app with the following:
   - A text input at the bottom with a Send button
   - The conversation displayed as a chat thread
 - Use a clean modern design with a dark or light theme (your choice)
-- Load the API key from an environment variable called ANTHROPIC_API_KEY
-```
+- Update the Anthropic client initialization to read the base URL from enviornment: new Anthropic({ apiKey, baseURL: process.env.ANTHROPIC_BASE_URL }).
+- Then add: ANTHROPIC_BASE_URL=https://meet-api-proxy......
 
+```
+In Bolt's env panel set both:
+ANTHROPIC_API_KEY=meet......
+ANTHROPIC_BASE_URL=https://meet-......
 ---
 
 ## Expected Output
