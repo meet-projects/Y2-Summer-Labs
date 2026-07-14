@@ -63,12 +63,13 @@ Build a clean chat web app with the following:
 - Update the Anthropic client initialization to read the base URL from enviornment: new Anthropic({ apiKey, baseURL: process.env.ANTHROPIC_BASE_URL }).
 - Then add: ANTHROPIC_BASE_URL=https://meet-api-proxy......
 
-```
---
-In Bolt's env panel set both:
+**In Bolt's env panel set both:
 ANTHROPIC_API_KEY=meet......
-ANTHROPIC_BASE_URL=https://meet-......
---
+ANTHROPIC_BASE_URL=https://meet-......**
+```
+
+
+---
 
 ## Expected Output
 
